@@ -1,0 +1,206 @@
+.bloco{
+    width: 1196px;
+     position: relative;
+     margin: 0 auto;
+ }
+
+nav{
+    position: absolute; 
+    right: 0;
+    font-size: 22px;
+    top: 140px;
+ }
+
+ nav li {
+    display: inline;
+    margin-left: 15px;
+}
+
+h1{
+    font-size: 80px;
+    font-family: 'Anton', sans-serif;
+    text-align: center;
+    color: white;
+    text-shadow: black 3px 3px;
+    font-style: italic;
+    margin-top: 0px;
+}
+
+h2{
+    margin: 0px;
+}
+
+.link{
+    font-size: 40px;
+    color: rgb(255, 197, 89);
+    font-family: 'Anton', sans-serif;
+    text-decoration: none;
+    top: 10px;
+    font-style: italic;
+}
+
+.link:hover{
+    color: rgb(178, 77, 236);
+    font-size: 45px;
+}
+
+.foto{
+    width: 300px;
+    height: 300px;
+}
+
+.fundo{
+    background-color: rgb(59, 56, 56);
+}
+
+.bg{
+    background-image: url(biceps.jpg);
+    height: 1000px;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    top: 140px;
+}
+
+.rodape-itens{
+    position: absolute; 
+    right: 0;
+    font-size: 22px;
+    top: 140px;
+}
+
+.cadastro{
+   color: rgb(255, 197, 89);
+   font-family: 'Anton', sans-serif;
+   font-size: 23px;
+   text-decoration: none;
+   font-style: italic;
+   text-align: right;
+   margin: 10px;
+   position: absolute; 
+   right: 0;
+   top: 30px;
+   list-style-type: none;
+}
+
+.cadastro:hover{
+    color:  rgb(178, 77, 236);
+    font-size: 28px;
+}
+
+.login{
+    color: rgb(255, 197, 89);
+    font-family: 'Anton', sans-serif;
+    font-size: 23px;
+    text-decoration: none;
+    font-style: italic;
+    text-align: right;
+    margin-right: 30px;
+    position: absolute; 
+    right: 0;
+    top: 15px;
+    list-style-type: none;
+}
+
+.login:hover{
+    color:  rgb(178, 77, 236);
+    font-size: 28px;
+
+}
+
+.login_ul{    
+    margin: 0;
+    list-style-type: none;
+}
+
+.subtitulo{
+    text-align: center;
+    font-size: 40px;
+    color:rgb(255, 197, 89); ;
+    text-shadow: black 3px 3px;
+}
+
+.fundo2{
+    color: rgb(178, 77, 236);
+}
+
+.cadastro_h1{
+    font-size: 80px;
+    font-family: 'Anton', sans-serif;
+    text-align: center;
+    color: rgb(255, 197, 89);
+    text-shadow: black 3px 3px;
+    font-style: italic;
+    margin-top: 0px;
+}
+
+.caixa_texto{
+    width: 25%;
+    height: 35px;
+    border-color: chocolate;
+    border-radius: 15px;
+    margin: 40px auto 0px auto;
+    display: block;
+    
+  }
+
+  .caixa_texto_grande{
+    width: 50%;
+    height: 250px;
+    border-color: chocolate;
+    border-radius: 10px;
+    margin-top: 70px;
+    margin: 0px;
+  }
+
+ .bug{
+    text-decoration: none;
+ }
+
+  .botao_castrar{
+    margin: 40px auto 0px auto;
+    display: block;
+    font-size: 40px;
+    font-family: 'Anton', sans-serif;
+    color:  rgb(255, 197, 89);
+    background-color: rgb(178, 77, 236);
+    border: none;
+    text-decoration: none;
+  }
+
+  .botao_login{
+    margin: 40px auto 0px auto;
+    display: block;
+    font-size: 40px;
+    font-family: 'Anton', sans-serif;
+    color:  rgb(255, 197, 89);
+    background-color: rgb(178, 77, 236);
+    border: none;
+    text-decoration: none;
+  }
+
+  .botao_senha{
+    margin: 40px auto 0px auto;
+    display: block;
+    font-size: 30px;
+    font-family: 'Anton', sans-serif;
+    color:  rgb(255, 197, 89);
+    background-color: rgb(178, 77, 236);
+    border: none;
+    text-decoration: none;
+  }
+
+  .caixa_texto::placeholder{
+    font-size: 20px;
+  }
+
+  .primary_button{
+    background-color: rgb(178, 77, 236) ;
+    font-size: 30px;
+    color: rgb(255, 197, 89);
+    font-family: 'Anton', sans-serif;
+    border-radius:8px ;
+    display: block;
+    margin: 30px auto;
+  }
