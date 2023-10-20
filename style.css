@@ -212,5 +212,30 @@ h2{
 }
 
 .produtos {
+
+}
+
+.home1 {
+    background-color:  rgb(59, 56, 56);
+    margin: 0px auto 0px auto;
+    margin-top: 0px;
+    color: rgb(255, 197, 89);
+}
+
+.home2 {
+    color:rgb(178, 77, 236) ;
+}
+
+.subtitulo_home {
+    font-size: 30px;
+    color: rgb(255, 197, 89);
+    font-family: 'Cabin', sans-serif;
+    padding-top: 20px;
+    padding-left: 10px;
+}
+
+.saiba_mais {
+    font-size: 25px;
+    color:rgb(255, 197, 89);
     
 }
