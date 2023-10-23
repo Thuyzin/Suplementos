@@ -216,10 +216,9 @@ h2{
 }
 
 .home1 {
-    background-color:  rgb(59, 56, 56);
-    margin: 0px auto 0px auto;
-    margin-top: 0px;
+    background-color:  rgb(36, 35, 35);
     color: rgb(255, 197, 89);
+    
 }
 
 .home2 {
@@ -230,12 +229,24 @@ h2{
     font-size: 30px;
     color: rgb(255, 197, 89);
     font-family: 'Cabin', sans-serif;
-    padding-top: 20px;
-    padding-left: 10px;
+    padding-left: 30px;
+    margin-top: 5px;
 }
 
 .saiba_mais {
     font-size: 25px;
     color:rgb(255, 197, 89);
-    
+    padding-left: 30px;
+}
+
+.img_saiba{
+    background-image: url(img2.jpg);
+    height: 500px;
+    width: 500px;
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    top: 140px;
+    right: 1px;
 }
