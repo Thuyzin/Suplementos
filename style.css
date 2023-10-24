@@ -30,6 +30,34 @@ h2{
     margin: 0px;
 }
 
+h3{
+    color:rgb(178, 77, 236);
+    font-size: 80px;
+    font-family: 'Anton', sans-serif;
+    text-align: center;
+    text-shadow: black 3px 3px;
+    font-style: italic;
+}
+
+.home2 {
+    position: absolute;
+    top: 403px;
+    margin: 35px 31%;
+}
+
+.home3{
+    position: absolute;
+    top: 584px;
+    margin: 35px 770px 31%;
+    color:rgb(255, 197, 89);
+    font-size: 80px;
+    font-family: 'Anton', sans-serif;
+    text-align: center;
+    text-shadow: black 3px 3px;
+    text-decoration: none;
+    background-color:rgb(178, 77, 236) ;
+}
+
 .link{
     font-size: 40px;
     color: rgb(255, 197, 89);
@@ -68,6 +96,8 @@ h2{
     right: 0;
     font-size: 22px;
     top: 140px;
+    color: rgb(255, 197, 89);
+    font-family: 'Cabin', sans-serif;
 }
 
 .cadastro{
@@ -221,32 +251,44 @@ h2{
     
 }
 
-.home2 {
-    color:rgb(178, 77, 236) ;
-}
-
 .subtitulo_home {
+    width: 49%;
     font-size: 30px;
     color: rgb(255, 197, 89);
     font-family: 'Cabin', sans-serif;
-    padding-left: 30px;
     margin-top: 5px;
+    text-align: justify;
+    width: 50%;
+    display: inline-block;
+    padding: 200px 50px;
 }
 
-.saiba_mais {
+.saiba_mais{
     font-size: 25px;
     color:rgb(255, 197, 89);
     padding-left: 30px;
+    display: inline;
+    right: 1px;
 }
 
 .img_saiba{
     background-image: url(img2.jpg);
-    height: 500px;
-    width: 500px;
-    /* Center and scale the image nicely */
+    height: 494px;
+    width: 494px;   
+    right: 15px;
+    position: absolute;
+}
+
+.div_saiba {
+    display: inline-block;
+}
+
+.final{
+    background-image: url(FinalHome.png);
+    height: 800px;
+   
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     top: 140px;
-    right: 1px;
 }
