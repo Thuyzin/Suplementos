@@ -50,7 +50,7 @@ h3{
     top: 584px;
     margin: 35px 770px 31%;
     color:rgb(255, 197, 89);
-    font-size: 80px;
+    font-size: 50px;
     font-family: 'Anton', sans-serif;
     text-align: center;
     text-shadow: black 3px 3px;
@@ -186,6 +186,7 @@ h3{
 
  .bug{
     text-decoration: none;
+    color:rgb(255, 197, 89);
  }
 
   .botao_castrar{
