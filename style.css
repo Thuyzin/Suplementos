@@ -188,17 +188,16 @@ h3{
     text-decoration: none;
     color:rgb(255, 197, 89);
  }
-
-  .botao_castrar{
-    margin: 40px auto 0px auto;
-    display: block;
-    font-size: 40px;
-    font-family: 'Anton', sans-serif;
-    color:  rgb(255, 197, 89);
-    background-color: rgb(178, 77, 236);
-    border: none;
-    text-decoration: none;
-  }
+ .botao_castrar{
+        margin: 40px auto 0px auto;
+        display: block;
+        font-size: 40px;
+        font-family: 'Anton', sans-serif;
+        color:  rgb(255, 197, 89);
+        background-color: rgb(178, 77, 236);
+        border: none;
+        text-decoration: none;
+    }
 
   .botao_login{
     margin: 40px auto 0px auto;
@@ -243,7 +242,7 @@ h3{
 }
 
 .produtos {
-
+   padding: auto 30px;
 }
 
 .home1 {
@@ -293,3 +292,52 @@ h3{
     background-size: cover;
     top: 140px;
 }
+
+.cor-Contato{
+    background-color: navajowhite;
+}
+
+.titulo_contato{
+    font-size: 70px;
+    color: chocolate;
+    font-family: 'Anton', sans-serif;
+    margin-bottom: 15px;
+    text-align: center;
+    margin-top: 0px;
+  }
+
+  .subtitulo{
+    font-size: 55px;
+    color: rgb(111, 48, 3);
+    font-family: 'Dosis', sans-serif;
+    text-align: center;
+  }
+
+  .caixa_texto{
+    width: 50%;
+    height: 35px;
+    border-color: chocolate;
+    border-radius: 10px;
+    margin: 35px auto;
+  }
+
+  .caixa_texto_grande{
+    width: 50%;
+    height: 250px;
+    border-color: chocolate;
+    border-radius: 10px;
+    margin-top: 70px;
+    display: block;
+    margin: auto;
+  }
+
+  .botao-contato{
+    background-color: navajowhite ;
+    font-size: 30px;
+    color: rgb(178, 77, 236);
+    font-family: 'Anton', sans-serif;
+    border-radius:8px ;
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+  }
