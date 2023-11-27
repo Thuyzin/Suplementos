@@ -341,3 +341,30 @@ h3{
     margin: auto;
     margin-top: 10px;
   }
+
+  .base{
+    padding: 20px;
+  }
+
+  .sobre-emcima{
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Chivo', sans-serif; 
+  }
+
+  .sobre-desc{
+    font-size: 30px;
+    text-align: left;
+    font-family: 'Dosis', sans-serif;
+    display: inline-block;
+    vertical-align: top;
+    width: 20%;
+    margin-right: 15%;
+  }
+
+  .sobre-desc-imag{
+    display: inline-block;
+   padding: 5px;
+    margin: 0px 10px 10px 0;
+    height: 900px;
+  }
